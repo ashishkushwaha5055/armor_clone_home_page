@@ -1,0 +1,290 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+#logo {
+  height: 12px;
+  width: 60px;
+  margin-top: 10px;
+}
+
+#shipping {
+  color: #333333;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  background-color: rgb(243, 243, 243);
+  line-height: 28px;
+}
+
+.headphoneVideo {
+  height: 800px;
+  width: 800px;
+  border-radius: 30px;
+  position: relative;
+  top: -50px;
+  z-index: -1; 
+  /* margin-bottom: 4vh; */
+}
+
+#buyPage {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0px 20vh;
+  display: flex;
+}
+
+#version {
+  font-size: 60px;
+  font-weight: normal;
+  color: #1a1a1a;
+}
+
+#price {
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  width: 100%;
+  position: relative;
+  top: 40px;
+}
+
+#details p {
+  color: #858585;
+  font-size: 12px;
+}
+
+li {
+  color: #0c0c0c;
+  line-height: 21.6px;
+  font-size: 15px;
+}
+
+#conf {
+  position: relative;
+  top: -20px;
+}
+
+#buy {
+  height: 62px;
+  width: 330px;
+  background-color: black;
+  color: white;
+  font-size: 28px;
+  border-radius: 5px;
+  margin-top: 170px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px 50px 0;
+}
+
+.heading h1 {
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.heading img {
+  height: 50px;
+}
+
+/* features */
+.features {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0px 20vh 15vh 20vh;
+  padding: 20px 10px;
+  display: flex;
+}
+
+.textHeading {
+  font-size: 30px;
+
+}
+
+.button {
+  margin: 40px 0;
+}
+
+.button button {
+  border-radius: 40px;
+  border: 1px solid #6e6e73;
+  height: 28px;
+  padding: 0 12px;
+  background-color: white;
+  position: relative;
+  top: -10px;
+  color: #6e6e73;
+}
+
+.text h1{
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.photo img{
+  height: 540 px;
+  width: 834px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+
+/* Review Card */
+.reviews{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.review {
+  width: 310px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 32px;
+}
+
+.reviewPara {
+  font-size: 18px;
+  font-weight: 300;
+  color: #989898;
+}
+
+.reviewHigh {
+  font-size: 28px;
+}
+
+/* .quote {
+  height: 70px;
+  position: relative;
+  bottom: 63.35px;
+} */
+
+.data {
+  position: relative;
+  bottom: 40px;
+}
+
+.reviewerName {
+  font-size: 18px;
+}
+
+/* question part */
+
+.questions {
+  margin: 0 20vh;
+}
+
+.question {
+  height: 66px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 15px;
+}
+
+.question div {
+  display: flex;
+  align-items: center; 
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.question div i {
+  padding: 5px;
+}
+
+/* About us */
+
+.aboutUs {
+  margin: 0 20vh;
+  border: 2px solid black; 
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 10px 10px 10px;
+}
+
+.aboutUs img {
+  width: 1000px;
+}
+
+.aboutHead {
+  font-size: 80px;
+  margin: 40px;
+}
+
+.aboutPara {
+  font-display:inherit;
+  margin: 20px 10px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* Links */
+
+.links {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 150px 10vh 20px 10vh;
+}
+
+.links img {
+  width: 110px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #1c1c1ca6;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  margin: 10px 0;
+}
+
+/* Address */
+.address {
+  margin: 0 10vh 10vh 10vh;
+}
+
+.addHead {
+  color: #1c1c1c;
+  font-size: 14px;
+  font-weight: 700;
+
+  margin-bottom: 40px;
+}
+
+.address p {
+  font-size: 14px;
+  line-height: 10px;
+}
+
+/* Copyright part */
+
+.copyRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 10vh;
+}
+
+.copyRight div a{
+  margin: 0 10px;
+  text-decoration: underline;
+  line-height: 20px;
+}
+
+.footer {
+  margin-top: 200px;
+}
